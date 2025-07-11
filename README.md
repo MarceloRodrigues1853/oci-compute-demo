@@ -6,7 +6,7 @@ Projeto prático de criação e configuração de instância de computação na 
 
 ## ✨ Objetivos
 
-- Entender o **provisionamento de redes**** e **recursos** no OCI
+- Entender o **provisionamento de redes** e **recursos** no OCI
 - Criar uma **VCN** com **sub-rede pública**, **Gateway de Internet**, **regras de roteamento** e **segurança**
 - **Instanciar** uma **VM** com **Oracle Linux** e **instalar Apache**
 - **Validar** acesso via navegador com **IP público**
@@ -127,6 +127,7 @@ sudo systemctl enable httpd
 sudo firewall-cmd --add-service=http --permanent
 sudo firewall-cmd --reload
 echo "This is a web server running on OCI" | sudo tee /var/www/html/index.html
+```
 ---
 
 ## 📷 Demo
