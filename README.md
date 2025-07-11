@@ -41,6 +41,18 @@ Projeto prático de criação e configuração de instância de computação na 
 8. Validar no navegador via IP público
 
 ---
+## 💻 Apache Setup Commands
+
+```bash
+sudo yum update -y
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --reload
+echo "This is a web server running on OCI" | sudo tee /var/www/html/index.html
+```
+---
 
 ## 📷 Demonstração
 
