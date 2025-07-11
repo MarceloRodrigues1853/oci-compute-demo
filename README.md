@@ -1,15 +1,15 @@
 # 🧠 OCI Compute Demo
 
-Projeto prático de criação e configuração de instância de computação na **Oracle Cloud Infrastructure (OCI)** com servidor web Apache, feito manualmente via console.
+Projeto prático de criação e configuração de instância de computação na **Oracle Cloud Infrastructure (OCI)** com **servidor web Apache**, feito manualmente via console **Cloud Shell**.
 
 ---
 
 ## ✨ Objetivos
 
-- Entender o provisionamento de redes e recursos no OCI
-- Criar uma VCN com sub-rede pública, Gateway de Internet, regras de roteamento e segurança
-- Instanciar uma VM com Oracle Linux e instalar Apache
-- Validar acesso via navegador com IP público
+- Entender o **provisionamento de redes**** e **recursos** no OCI
+- Criar uma **VCN** com **sub-rede pública**, **Gateway de Internet**, **regras de roteamento** e **segurança**
+- **Instanciar** uma **VM** com **Oracle Linux** e **instalar Apache**
+- **Validar** acesso via navegador com **IP público**
 
 ---
 
@@ -17,15 +17,14 @@ Projeto prático de criação e configuração de instância de computação na 
 
 - `README.md`: Guia completo passo a passo
 - `servidor_rodando.PNG`: Print da página web ativa no navegador após instalação
-- *(Você pode adicionar outros arquivos no futuro, como scripts ou PDFs de apoio)*
 
 ---
 
 ## 🧪 Pré-requisitos
 
-- Conta na Oracle Cloud
-- Acesso ao OCI Console e ao Cloud Shell
-- Conhecimento básico de redes e SSH
+- **Conta** na **Oracle Cloud**
+- **Acesso** ao OCI Console e ao **Cloud Shell**
+- Conhecimento básico de **redes** e **SSH**
 - Chave SSH pública/privada para autenticação
 
 ---
