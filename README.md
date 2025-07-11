@@ -50,7 +50,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 sudo firewall-cmd --add-service=http --permanent
 sudo firewall-cmd --reload
-echo "This is a web server running on OCI" | sudo tee /var/www/html/index.html
+echo "Este é um servidor web rodando no OCI" | sudo tee /var/www/html/index.html
 ```
 ---
 
